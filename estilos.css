@@ -47,6 +47,7 @@ footer {
   text-align: center;
 }
 
+/* Estilo responsive: Cuando la pantalla es pequeña (móviles) */
 @media (max-width: 600px) {
   nav a {
     display: block; /* Los enlaces serán bloques para apilarse en móviles */
