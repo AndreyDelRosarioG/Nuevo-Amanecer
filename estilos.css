@@ -1,16 +1,16 @@
 /* Aplica un fondo y color general */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #f4f4f4; /* Fondo gris claro */
+  color: #333; /* Texto de color oscuro */
   margin: 0;
   padding: 0;
 }
 
 /* El encabezado */
 header {
-  background-color: #004d99;
-  color: white;
+  background-color: #004d99; /* Fondo azul */
+  color: white; /* Texto blanco */
   padding: 10px;
   text-align: center;
 }
@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: #333; /* Cambio de fondo al pasar el ratón */
 }
 
 /* Contenido principal */
@@ -33,32 +33,16 @@ main {
 
 /* Secciones dentro del contenido principal */
 section {
-  background-color: white;
-  margin-bottom: 20px;
+  background-color: white; /* Fondo blanco para las secciones */
+  margin-bottom: 20px; /* Espaciado entre secciones */
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 5px; /* Bordes redondeados */
 }
 
 /* Pie de página */
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
   padding: 10px;
   text-align: center;
-}
-
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-    text-align: center;
-    padding: 15px;
-  }
-
-  header {
-    text-align: center;
-  }
-
-  main {
-    padding: 10px;
-  }
 }
