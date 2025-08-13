@@ -46,3 +46,19 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  nav a {
+    display: block; /* Los enlaces serán bloques para apilarse en móviles */
+    text-align: center; /* Centrar los enlaces */
+    padding: 15px; /* Aumentar el espaciado */
+  }
+
+  header {
+    text-align: center; /* Centrar el encabezado */
+  }
+
+  main {
+    padding: 10px; /* Reducir el espacio en móviles */
+  }
+}
