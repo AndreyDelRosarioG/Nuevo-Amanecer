@@ -1,0 +1,64 @@
+/* Aplica un fondo y color general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* El encabezado */
+header {
+  background-color: #004d99;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Los enlaces en el menú de navegación */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+/* Secciones dentro del contenido principal */
+section {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
